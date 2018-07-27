@@ -61,11 +61,15 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
-img[alt="welcome to my homepage"]{
+img[alt="welcome to my homepage"] {
 	display: block;
 	margin: 0 auto;
-
 }
+img[alt="captain picard"] {
+	display: flex;
+	margin: 10px;
+}
+
 
 header{
 	background-color: rgb(60,60,60);
@@ -89,12 +93,14 @@ header{
 }
 
 .instructions-wrapper {
+	padding: 10px;
 	display: flex;
 	border: 2px solid black;
 }
 
 .about-me {
 	color: rgb(255,255,255);
+	padding: 10px;
 	display: flex;
 	background-color: blue;
 }
