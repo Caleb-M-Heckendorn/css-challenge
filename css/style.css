@@ -11,7 +11,6 @@ html, body {
 }
 
 .container {
-	color: green;
 	margin: 0 auto;
 	padding: 0 2rem;
 }
@@ -62,3 +61,20 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
+#box {
+	font-family: "Consolas";
+	margin-top: 0px;
+	height: 100px;
+	width: 1500px;
+	background-color: rgb(60, 60, 60);
+}
+.color {
+	color: lime;
+}
+.jane {
+	width: 500px;
+	height: auto;
+}
+div.instructions-wrapper {
+	border: 2px solid black;
+}
