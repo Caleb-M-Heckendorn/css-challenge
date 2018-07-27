@@ -69,10 +69,17 @@ header{
 .color {
 	color: lime;
 }
+
 .jane {
-	width: 500px;
+	width: 200px;
 	height: auto;
 }
+
+.picard{
+	width: 200px;
+	height: auto;
+}
+
 div.instructions-wrapper {
 	border: 2px solid black;
 }
