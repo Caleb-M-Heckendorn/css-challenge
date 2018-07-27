@@ -66,6 +66,7 @@ header{
 	color: lime;
 	margin-top: 2px;
 }
+
 .color {
 	color: lime;
 }
@@ -75,11 +76,23 @@ header{
 	height: auto;
 }
 
-.picard{
-	width: 200px;
+.picard {
+	width: 300px;
 	height: auto;
+	margin: 5px;
 }
 
-div.instructions-wrapper {
+.instructions-wrapper {
+	display: flex;
 	border: 2px solid black;
+}
+
+.about-me {
+	color: rgb(255,255,255);
+	display: flex;
+	background-color: blue;
+}
+
+.skillz {
+	display: grid;
 }
