@@ -63,7 +63,7 @@ body { width: 100%;}
 ******************************************************/
 img[alt="welcome to my homepage"]{
 	display: block;
-	margin: 0px;
+	margin: 0 auto;
 
 }
 
