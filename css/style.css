@@ -11,6 +11,7 @@ html, body {
 }
 
 .container {
+	color: green;
 	margin: 0 auto;
 	padding: 0 2rem;
 }
