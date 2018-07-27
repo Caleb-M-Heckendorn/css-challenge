@@ -61,6 +61,12 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
+img[alt="welcome to my homepage"]{
+	display: block;
+	margin: 0px;
+
+}
+
 header{
 	background-color: rgb(60,60,60);
 	color: lime;
@@ -94,5 +100,8 @@ header{
 }
 
 .skillz {
+	background-color: grey;
+	color: green;
 	display: grid;
+	margin: 15px;
 }
